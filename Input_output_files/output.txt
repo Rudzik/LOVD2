@@ -1,0 +1,176 @@
+### LOVD-version 3000-060 ### Full data download ### To import, do not remove or alter this header ### 
+    ## Genes ## Do not remove or alter this header ## 
+    ## Transcripts ## Do not remove or alter this header ## 
+    ## Diseases ## Do not remove or alter this header ##
+    ## Genes_To_Diseases ## Do not remove or alter this header ##
+    ## Individuals ## Do not remove or alter this header ##
+{{id}}	{{panelid}}	{{panel_size}}	{{statusid}}	{{owned_by}}	{{created_by}}	{{Individual/Lab_ID}}	{{Individual/Individual_ID}}	{{Individual/Reference}}	{{Individual/Remarks}}	{{Individual/Gender}}	{{Individual/Origin/Geographic}}	{{Individual/Origin/Population}}	{{Individual/Consanguinity}}	{{Individual/Age_of_death}}	{{Individual/Data_av}}	{{Individual/Treatment}}	{{Individual/VIP}}	{{Individual/Remarks_Non_Public}}
+101		1	9	0	3840	430	430	{PMID:Tracewska 2019:31766579}	sister of 225	F	Poland	Slavic	no		yes		0	
+102		1	9	0	3840	444	444	{PMID:Tracewska 2019:31766579}	brother of 229	M	Poland	Slavic	no		yes		0	
+103		1	9	0	3840	445	445	{PMID:Tracewska 2019:31766579}	sister of 229	F	Poland	Slavic	no		yes		0	
+104		1	9	0	3840	457	457	{PMID:Tracewska 2019:31766579}	mother of 231	F	Poland	Slavic	no		yes		0	
+105		1	9	0	3840	461	461	{PMID:Tracewska 2019:31766579}	brother of 235	M	Poland	Slavic	no		yes		0	
+106		1	9	0	3840	291	291	{PMID:Tracewska 2019:31766579}	father of 289	M	Poland	Slavic	no		yes		0	
+107		1	9	0	3840	609	609	{PMID:Tracewska 2019:31766579}	brother of 333	M	Poland	Slavic	yes		yes		0	
+108		1	9	0	3840	527	527	{PMID:Tracewska 2019:31766579}	sister of 338	F	Poland	Slavic	no		yes		0	
+109		1	9	0	3840	605	605	{PMID:Tracewska 2019:31766579}	sister of 351	F	Poland	Slavic	no		yes		0	
+110		1	9	0	3840	619	619	{PMID:Tracewska 2019:31766579}	cousin of 363	F	Poland	Slavic	no		yes		0	
+111		1	9	0	3840	533	533	{PMID:Tracewska 2019:31766579}	brother of 370	M	Poland	Slavic	no		yes		0	
+112		1	9	0	3840	615	615	{PMID:Tracewska 2019:31766579}	son of 373	M	Poland	Slavic	no		yes		0	
+113		1	9	0	3840	643	643	{PMID:Tracewska 2019:31766579}	father of 490	M	Poland	Slavic	no		yes		0	
+## Individuals_To_Diseases ## Do not remove or alter this header ##
+{{individualid}}	{{diseaseid}}
+101	4214
+102	4214
+103	4214
+104	4214
+105	4214
+106	4214
+107	4214
+108	4214
+109	4214
+110	4214
+111	4214
+112	4214
+113	4214
+## Phenotypes ## Do not remove or alter this header ##
+{{individualid}}	{{diseaseid}}	{{id}}	{{statusid}}	{{owned_by}}	{{created_by}}	{{Phenotype/Diagnosis/Initial}}	{{Phenotype/Diagnosis/Definite}}	{{Phenotype/Inheritance}}	{{Phenotype/Additional}}	{{Phenotype/Age}}	{{Phenotype/Age/Onset}}	{{Phenotype/Onset}}	{{Phenotype/Age/Diagnosis}}	{{Phenotype/Protein}}
+101	4214	101	9	0	3840	retinal disease	Stargardt disease, type 1 (STGD1)	Familial, autosomal recessive	{{Phenotype/Additional}}		8y		8y	
+102	4214	102	9	0	3840	retinal disease	Stargardt disease, type 1 (STGD1)	Familial, autosomal recessive	see paper		6y		8y	
+103	4214	103	9	0	3840	retinal disease	Stargardt disease, type 1 (STGD1)	Familial, autosomal recessive	see paper		8y		8y	
+104	4214	104	9	0	3840	retinal disease	macular degeneration, age-related (ARMD)	Familial, autosomal recessive	0	45y	14y		16y	
+105	4214	105	9	0	3840	retinal disease	Stargardt disease, type 1 (STGD1)	Familial, autosomal recessive	0		13y		13y	
+106	4214	106	9	0	3840	retinal disease	Stargardt disease, type 1 (STGD1)	Familial, autosomal recessive	see paper					
+107	4214	107	9	0	3840	0	retinitis pigmentosa, type 19 (RP19)	Familial, autosomal recessive	0					
+108	4214	108	9	0	3840	retinal disease	Stargardt disease, type 1 (STGD1)	Familial, autosomal recessive	see paper					
+109	4214	109	9	0	3840	retinal disease	Stargardt disease, type 1 (STGD1)	Familial, autosomal recessive	0					
+110	4214	110	9	0	3840	retinal disease	retinitis pigmentosa, type 19 (RP19)	Familial, autosomal recessive	see paper		9y		13y	
+111	4214	111	9	0	3840	retinal disease	retinitis pigmentosa, type 19 (RP19)	Familial, autosomal recessive	see paper					
+112	4214	112	9	0	3840	retinal disease	retinitis pigmentosa, type 19 (RP19)	Familial, autosomal recessive	see paper		4y		5y	
+113	4214	113	9	0	3840	retinal disease	Stargardt disease, type 1 (STGD1)	Familial, autosomal recessive	0					
+## Screenings ## Do not remove or alter this header ##
+{{id}}	{{individualid}}	{{variants_found}}	{{owned_by}}	{{created_by}}	{{Screening/Template}}	{{Screening/Technique}}	{{Screening/Tissue}}	{{Screening/Remarks}}
+101	101	1	0	3840	DNA	SEQ	buccal cells	targeted resequencing using MIPs library prep; 108-gene panel
+102	102	1	0	3840	DNA	RFLP	buccal cells	targeted resequencing using MIPs library prep; 108-gene panel
+103	103	1	0	3840	DNA	RFLP	buccal cells	targeted resequencing using MIPs library prep; 108-gene panel
+104	104	1	0	3840	DNA	SEQ	buccal cells	targeted resequencing using MIPs library prep; 108-gene panel
+105	105	1	0	3840	DNA	RFLP	buccal cells	targeted resequencing using MIPs library prep; 108-gene panel
+106	106	1	0	3840	DNA	RFLP	buccal cells	targeted resequencing using MIPs library prep; 108-gene panel
+107	107	1	0	3840	DNA	RFLP	buccal cells	targeted resequencing using MIPs library prep; 108-gene panel
+108	108	1	0	3840	DNA	RFLP	buccal cells	targeted resequencing using MIPs library prep; 108-gene panel
+109	109	1	0	3840	DNA	RFLP	buccal cells	targeted resequencing using MIPs library prep; 108-gene panel
+110	110	1	0	3840	DNA	RFLP	buccal cells	targeted resequencing using MIPs library prep; 108-gene panel
+111	111	1	0	3840	DNA	RFLP	buccal cells	targeted resequencing using MIPs library prep; 108-gene panel
+112	112	1	0	3840	DNA	SEQ-NG-I; SEQ	blood	targeted resequencing using MIPs library prep; 108-gene panel
+113	113	1	0	3840	DNA	RFLP	buccal cells	targeted resequencing using MIPs library prep; 108-gene panel
+## Screenings_To_Genes ## Do not remove or alter this header ##
+{{screeningid}}	{{geneid}}
+101	ABCA4
+102	ABCA4
+103	ABCA4
+104	ABCA4
+105	ABCA4
+106	ABCA4
+107	ABCA4
+108	ABCA4
+109	ABCA4
+110	ABCA4
+111	ABCA4
+112	ABCA4
+113	ABCA4
+## Variants_On_Genome ## Do not remove or alter this header ##
+{{id}}	{{allele}}	{{effectid}}	{{VariantOnGenome/ClinicalClassification}}	{{VariantOnGenome/ClinicalClassification/Method}}	{{chromosome}}	{{VariantOnGenome/DNA}}	{{VariantOnGenome/DNA/hg38}}	{{mapping_flags}}	{{statusid}}	{{owned_by}}	{{created_by}}	{{VariantOnGenome/DBID}}	{{VariantOnGenome/Frequency}}	{{VariantOnGenome/Reference}}	{{VariantOnGenome/Published_as}}	{{VariantOnGenome/Remarks}}	{{VariantOnGenome/Genetic_origin}}	{{VariantOnGenome/Segregation}}	{{VariantOnGenome/dbSNP}}	{{VariantOnGenome/VIP}}	{{VariantOnGenome/ClinVar}}	{{VariantOnGenome/Remarks_Non_Public}}
+101	21	90	pathogenic	ACMG	1	g.94508969G>A	g.94043413G>A		9	0	3840		0 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+201	21	90	pathogenic	ACMG	1	g.94528806A>G	g.94063250A>G		9	0	3840		0,00308 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+301	11	90	pathogenic	ACMG	1	g.94564484G>A	g.94098928G>A		9	0	3840		0,0001 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+102	11	90	pathogenic	ACMG	1	g.94476951A>G	g.94011395A>G		9	0	3840		0,0002 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+202	21	90	pathogenic	ACMG	1	g.94495009dup	g.94029453dup		9	0	3840		0 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+103	11	90	pathogenic	ACMG	1	g.94476951A>G	g.94011395A>G		9	0	3840		0,0002 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+203	21	90	pathogenic	ACMG	1	g.94495009dup	g.94029453dup		9	0	3840		0 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+104	0	90	association	ACMG	1	g.94496571G>A	g.94031015G>A		9	0	3840		0,00082 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+105	21	90	pathogenic	ACMG	1	g.94508969G>A	g.94043413G>A		9	0	3840		0 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+205	11	90	pathogenic	ACMG	1	g.94476351C>T	g.94010795C>T		9	0	3840		0,00061 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+305	21	90	pathogenic	ACMG	1	g.94528806A>G	g.94063250A>G		9	0	3840		0,00308 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+106	3	90	pathogenic	ACMG	1	g.94508969G>A	g.94043413G>A		9	0	3840		0 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+206	3	70	pathogenic	ACMG	1	g.94528806A>G	g.94063250A>G		9	0	3840		0,00308 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+107	3	90	pathogenic	ACMG	1	g.94485137C>T	g.94019581C>T		9	0	3840		0,0001 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+108	3	90	pathogenic	ACMG	1	g.94508969G>A	g.94043413G>A		9	0	3840		0 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+208	3	90	pathogenic	ACMG	1	g.94528806A>G	g.94063250A>G		9	0	3840		0,00308 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+109	3	70	likely pathogenic	ACMG	1	g.94476467T>A	g.94010911T>A		9	0	3840		0,065 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+209	11	90	pathogenic	ACMG	1	g.94476951A>G	g.94011395A>G		9	0	3840		0,0002 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+309	21	90	pathogenic	ACMG	1	g.94517254C>G	g.94051698C>G		9	0	3840		0,00317 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+110	21	90	pathogenic	ACMG	1	g.94508969G>A	g.94043413G>A		9	0	3840		0 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+210	11	90	pathogenic	ACMG	1	g.94496571G>A	g.94031015G>A		9	0	3840		0,00082 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+310	21	90	pathogenic	ACMG	1	g.94528806A>G	g.94063250A>G		9	0	3840		0,00308 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+111	21	90	pathogenic	ACMG	1	g.94508969G>A	g.94043413G>A		9	0	3840		0 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+211	3	90	pathogenic	ACMG	1	g.94528806A>G	g.94063250A>G		9	0	3840		0,00308 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+112	21	90	pathogenic	ACMG	1	g.94508969G>A	g.94043413G>A		9	0	3840		0 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+212	11	70	pathogenic	ACMG	1	g.94485137C>T	g.94019581C>T		9	0	3840		0,0001 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+312	21	90	pathogenic	ACMG	1	g.94528806A>G	g.94063250A>G		9	0	3840		0,00308 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+113	1	90	pathogenic	ACMG	1	g.94508969G>A	g.94043413G>A		9	0	3840		0 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+213	2	90	pathogenic	ACMG	1	g.94495983C>T	g.94030427C>T		9	0	3840		0 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+313	1	90	pathogenic	ACMG	1	g.94528806A>G	g.94063250A>G		9	0	3840		0,00308 (in-house database, ~5000 samples)	{PMID:Tracewska 2019:31766579}			Germline	yes		0		
+## Variants_On_Transcripts ## Do not remove or alter this header ##
+{{id}}	{{transcriptid}}	{{effectid}}	{{VariantOnTranscript/DNA}}	{{VariantOnTranscript/RNA}}	{{VariantOnTranscript/Protein}}	{{VariantOnTranscript/Exon}}
+101	1847	90	c.3113C>T	r.(?)	p.(Ala1038Val)	21
+201	1847	90	c.1622T>C	r.(?)	p.(Leu541Pro)	12
+301	1847	90	c.634C>T	r.(?)	p.(Arg212Cys)	6
+102	1847	90	c.5461-10T>C	r.[5461_5714del,5461_5584del]	p.[Thr1821Valfs*13,Thr1821Aspfs*6]	38i
+202	1847	90	c.4537dup	r.(?)	p.(Gln1513Profs*42)	30
+103	1847	90	c.5461-10T>C	r.[5461_5714del,5461_5584del]	p.[Thr1821Valfs*13,Thr1821Aspfs*6]	38i
+203	1847	90	c.4537dup	r.(?)	p.(Gln1513Profs*42)	30
+104	1847	90	c.4234C>T	r.(?)	p.(Gln1412*)	28
+105	1847	90	c.3113C>T	r.(?)	p.(Ala1038Val)	21
+205	1847	90	c.5714+5G>A	r.spl?	p.[=,Glu1863Leufs*33]	12
+305	1847	90	c.1622T>C	r.(?)	p.(Leu541Pro)	40i
+106	1847	90	c.3113C>T	r.(?)	p.(Ala1038Val)	21
+206	1847	70	c.1622T>C	r.(?)	p.(Leu541Pro)	12
+107	1847	90	c.5196+1G>A	r.spl	p.(?)	36i
+108	1847	90	c.3113C>T	r.(?)	p.(Ala1038Val)	21
+208	1847	90	c.1622T>C	r.(?)	p.(Leu541Pro)	12
+109	1847	70	c.5603A>T	r.spl	p.(Asn1868Ile)	40
+209	1847	90	c.5461-10T>C	r.[5461_5714del,5461_5584del]	p.[Thr1821Valfs*13,Thr1821Aspfs*6]	17
+309	1847	90	c.2588G>C	r.(?)	p.[Gly863Ala,Gly863del]	38i
+110	1847	90	c.3113C>T	r.(?)	p.(Ala1038Val)	21
+210	1847	90	c.4234C>T	r.(?)	p.(Gln1412*)	12
+310	1847	90	c.1622T>C	r.(?)	p.(Leu541Pro)	28
+111	1847	90	c.3113C>T	r.(?)	p.(Ala1038Val)	12
+211	1847	90	c.1622T>C	r.(?)	p.(Leu541Pro)	21
+112	1847	90	c.3113C>T	r.(?)	p.(Ala1038Val)	21
+212	1847	70	c.5196+1G>A	r.spl	p.(?)	12
+312	1847	90	c.1622T>C	r.(?)	p.(Leu541Pro)	36i
+113	1847	90	c.3113C>T	r.(?)	p.(Ala1038Val)	21
+213	1847	90	c.4352+1G>A	r.spl	p.(?)	12
+313	1847	90	c.1622T>C	r.(?)	p.(Leu541Pro)	29i
+## Screenings_To_Variants ## Do not remove or alter this header ##
+{{screeningid}}	{{variantid}}
+101	101
+101	201
+101	301
+102	102
+102	202
+103	103
+103	203
+104	104
+105	105
+105	205
+105	305
+106	106
+106	206
+107	107
+108	108
+108	208
+109	109
+109	209
+109	309
+110	110
+110	210
+110	310
+111	111
+111	211
+112	112
+112	212
+112	312
+113	113
+113	213
+113	313
