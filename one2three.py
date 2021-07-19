@@ -21,7 +21,8 @@ aa_code = {
     "*": "Ter"
 }
 
-hgvs_p = -1
+hgvs_p = -1 #hgvs_p it's just a column name. In my file it will be {{VariantOnTranscript/Protein}} . It will have to
+# test & convert 1-letter to 3-letter code BEFORE making any kind of output file
 
 with open("C:/Users/Engineering/Documents/Rudzik/work/LOVD/Hosono_2018/annovar.csv") as csv:
     for line in csv:
