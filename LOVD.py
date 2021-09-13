@@ -1,6 +1,7 @@
 import pandas as pd
 import click
 import io
+import os
 pd.options.display.float_format = '{:.0f}'.format
 
 @click.command()
@@ -10,6 +11,8 @@ def lovd(input, output):
     """From Rudzik with LOVD."""
     df = pd.read_csv(input, sep='\t',
                      skiprows=0, header=1, low_memory=False)
+    if os.path.exists(output):
+        os.remove(output)
     # with open("C:/Users/Engineering/Documents/Rudzik/work/LOVD/FFBupload_empty.txt") as fh:
     #     txt = fh.read()
     # this piece of code is to avoid closing the file manually! Normally it would look like this:
