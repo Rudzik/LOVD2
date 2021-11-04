@@ -18,13 +18,13 @@ aa_code = {
     "G": "Gly", "H": "His", "I": "Ile", "K": "Lys", "L": "Leu",
     "M": "Met", "N": "Asn", "P": "Pro", "Q": "Gln", "R": "Arg",
     "S": "Ser", "T": "Thr", "V": "Val", "W": "Trp", "Y": "Tyr",
-    "*": "Ter"
+    "Ter": "*"
 }
 
 hgvs_p = -1 #hgvs_p it's just a column name. In my file it will be {{VariantOnTranscript/Protein}} . It will have to
 # test & convert 1-letter to 3-letter code BEFORE making any kind of output file
 
-with open("C:/Users/Engineering/Documents/Rudzik/work/LOVD/Hosono_2018/annovar.csv") as csv:
+with open("C:/Users/Engineering/Documents/Rudzik/work/LOVD/Jauregui 2020/1.csv") as csv:
     for line in csv:
         data = line.strip().split("\t")
 

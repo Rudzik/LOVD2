@@ -9,8 +9,7 @@ pd.options.display.float_format = '{:.0f}'.format
 @click.option('--output', type=click.Path(), help='Output path.')
 def lovd(input, output):
     """From Rudzik with LOVD."""
-    df = pd.read_csv(input, sep='\t',
-                     skiprows=0, header=1, low_memory=False)
+    df = pd.read_csv(input, sep='\t', skiprows=0, header=1, low_memory=False)
     if os.path.exists(output):
         os.remove(output)
     # with open("C:/Users/Engineering/Documents/Rudzik/work/LOVD/FFBupload_empty.txt") as fh:
